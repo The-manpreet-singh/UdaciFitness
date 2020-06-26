@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import UdaciSlider from "./UdaciSlider";
 import UdaciSteppers from "./UdaciSteppers";
 import DateHeader from "./DateHeader";
-import { View, TouchableOpacity, Text } from "react-native";
+import { View, TouchableOpacity, Text, StyleSheet, Platform } from "react-native";
 import { getMetricMetaInfo, timeToString, getDailyReminderValue } from "../utils/helpers";
 import TextButton from "./TextButton";
 import { Ionicons } from "@expo/vector-icons";
