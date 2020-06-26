@@ -9,7 +9,7 @@ export default function App() {
 	//console.log('running')
 	return (
 		<Provider store={createStore(reducer)}>
-			<View>
+			<View style={{ flex: 1 }}>
 				<AddEntry />
 			</View>
 		</Provider>
