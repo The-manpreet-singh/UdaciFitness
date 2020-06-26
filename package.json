@@ -15,7 +15,8 @@
     "react-native": "https://github.com/expo/react-native/archive/sdk-37.0.1.tar.gz",
     "react-native-web": "~0.11.7",
     "react-redux": "^7.2.0",
-    "redux": "^4.0.5"
+    "redux": "^4.0.5",
+    "udacifitness-calendar": "^11.0.0"
   },
   "devDependencies": {
     "@babel/core": "^7.8.6",
