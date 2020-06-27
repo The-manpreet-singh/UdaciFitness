@@ -10,7 +10,7 @@ import DateHeader from "./DateHeader";
 import MetricCard from "./MetricCard";
 import { AppLoading } from "expo";
 
-class History extends Component {
+class AppHistory extends Component {
 	state = {
 		ready: false,
 	};
@@ -94,4 +94,4 @@ function mapStateToProps(entries) {
 	};
 }
 
-export default connect(mapStateToProps)(History);
+export default connect(mapStateToProps)(AppHistory);
