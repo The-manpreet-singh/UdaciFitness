@@ -3,7 +3,9 @@ import UdaciSlider from "./UdaciSlider";
 import UdaciSteppers from "./UdaciSteppers";
 import DateHeader from "./DateHeader";
 import { View, TouchableOpacity, Text, StyleSheet, Platform } from "react-native";
-import { getMetricMetaInfo, timeToString, getDailyReminderValue } from "../utils/helpers";
+import { getMetricMetaInfo, timeToString,  getDailyReminderValue,
+  clearLocalNotification,
+  setLocalNotification} from "../utils/helpers";
 import TextButton from "./TextButton";
 import { Ionicons } from "@expo/vector-icons";
 import { submitEntry, removeEntry } from "../utils/api";
@@ -71,6 +73,8 @@ class AddEntry extends Component {
 		// Save to "DB"
 		submitEntry({ key, entry });
 		// Clear local notification
+		clearLocalNotification()
+		.then(setLocalNotification)
 	};
 
 	reset = () => {
