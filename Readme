@@ -1,6 +1,12 @@
-for apk file
+# udacity- UdaciFitness-react-native-app
+
+This a Mobile application, I used react-native to create an app. and used expo-cli and android-studio. 
+This application tested in android phone, user play a quiz game in this application
+
+for build an apk file folow these commands
 
 commands-
+
 npm install -g exp
 exp build:android
 exp build:status
