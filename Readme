@@ -1,7 +1,7 @@
 # udacity- UdaciFitness-react-native-app
 
 This a Mobile application, I used react-native to create an app. and used expo-cli and android-studio. 
-This application tested in android phone, user play a quiz game in this application
+This application tested in android phone, that's show speed and direction, keyboard
 
 for build an apk file folow these commands
 
